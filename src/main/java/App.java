@@ -40,7 +40,7 @@ public class App {
 		SequenceOperator.findLongestSubsequence(randomSequenceThree);
 		
 		List<Integer> randomSequenceFour = new ArrayList<Integer>();
-		randomSequenceFour = createRandomList(10000, 20);
+		randomSequenceFour = createRandomList(10000, 40);
 		SequenceOperator.findLongestSubsequence(randomSequenceFour);
 	}
 	
